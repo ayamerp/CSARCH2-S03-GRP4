@@ -2,7 +2,9 @@
 # Panic at the Architecture! Y2K, Global Hysteria, and Why DLSU Has 3-Digit IDs
 
 **Course:** CSARCH2 — Virtual Exhibit Project
+
 **Section & Theme:** S03 — Problem Solving Stories
+
 **Topic:** Y2K Bug (Year 2000 Bug; Millennium Bug)
 
 ---
