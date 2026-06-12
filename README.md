@@ -100,6 +100,12 @@ The layout is divided into two panels:
 
 Users can select different innovations to compare their historical origins with their present-day uses.
 
+## Interactive Minigame
+
+![Minigame](images/minigame.png)
+
+To make the exhibit more interactive, visitors will participate in a choice-based mini-game where they take on the role of an engineer helping build the Apollo Guidance Computer. Users must identify which AGC innovations solved the limitations of older computers, such as integrated circuits, magnetic rope memory, the DSKY, and priority scheduling. Each correct answer adds a new component to the AGC, gradually assembling the computer while teaching visitors about its architectural improvements.
+
 ## Interactive Timeline
 
 ![Interactive Timeline](images/interactiveTimeline.png)
