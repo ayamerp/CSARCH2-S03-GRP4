@@ -1,107 +1,148 @@
-# CSARCH2-S03-GRP4
-# Panic at the Architecture! Y2K, Global Hysteria, and Why DLSU Has 3-Digit IDs
+# Inside the Apollo Guidance Computer: The Technology That Took Us to the Moon
 
-**Course:** CSARCH2 — Virtual Exhibit Project
+## Project Information
 
-**Section & Theme:** S03 — Problem Solving Stories
+**Course:** CSARCH2
+**Section & Theme:** S03 – Problem-Solving Stories
+**Topic:** Apollo Guidance Computer (AGC)
 
-**Topic:** Y2K Bug (Year 2000 Bug; Millennium Bug)
+### Group 4
 
----
-
-## Group 4
-
-| Name | Role |
-|------|------|
-| Alcasid, Aizy Danielle | Member |
-| Dimaunahan, Chelsea Jei | Member |
-| Pangan, Aaliyah Maxine Rochelle | Member |
-| Roa, Luis Antonio | Member |
-| Sanidad, Christian Gabriel | Member |
+* ALCASID, Aizy Danielle
+* DIMAUNAHAN, Chelsea Jei
+* PANGAN, Aaliyah Maxine Rochelle
+* ROA, Luis Antonio
+* SANIDAD, Christian Gabriel
 
 ---
 
-## Introduction
+# Introduction
 
-An architectural shortcut made by programmers to save memory and storage costs led to one of the most significant technology concerns of the 20th century. The Y2K bug was created from the simplification of storing years as two digits instead of four — a practice adopted because early computer systems operated under limited and expensive memory and storage resources.
+The Apollo Guidance Computer (AGC) was developed by the MIT Instrumentation Laboratory between 1961 and 1972. The AGC was one of the first computers to rely on integrated circuits, which allowed it to meet the strict size, weight, and power restrictions required for the Apollo missions while maintaining the reliability needed for mission operations.
 
-As the year 2000 approached, fears grew that computer systems would misinterpret the date and cause widespread disruptions. This prompted a massive global effort to identify and remediate vulnerable systems before the new millennium arrived. The event also left behind a local legacy that reached the hallways of De La Salle University — the student ID system was extended in response to this technical mishap.
-
-> *"Welcome to an exhibit that explores the critical architectural decisions that either make or break the future of computing."*
+This push for miniaturization and dependability set new standards for digital computing. The innovations born from the AGC did not stay on the Moon. Many of the technologies and design principles pioneered by the AGC later influenced modern smartphones, aircraft systems, and medical devices.
 
 ---
 
-## About the Y2K Bug
+# Proposed Interactive Elements
 
-Computer engineers only stored two digits for a date's year, since data storage was expensive and took up a lot of space. As years passed, engineers realized this would become a serious problem — computers might interpret `"00"` as `1900` instead of `2000`, causing all date-dependent software to malfunction.
+## Then & Now Narrative
 
-People feared nuclear plants would malfunction, the economy would crash, and it would be a kind of "doomsday." However, nothing catastrophic happened once the clock struck midnight on January 1, 2000. The issues that did occur were relatively minor: some records were accidentally deleted, cellphone messages were lost, and one 105-year-old man was directed to attend kindergarten. More seriously, a U.S. spy satellite lost contact with its controllers and some company security systems failed.
+This interactive split-screen experience allows visitors to explore how innovations from the Apollo Guidance Computer evolved into technologies used today.
 
-From a computer architecture perspective, the Y2K bug emphasizes the importance of proper data representation and storage allocation — even small savings in resource usage can create problems that affect systems decades later.
+The left side highlights a specific innovation from the Apollo era, while the right side shows how that same innovation is applied in modern technology. Users can select from five different innovations, and each selection updates both sides simultaneously to reveal a "then and now" comparison.
 
----
+This design helps visitors understand the direct connection between Apollo-era engineering and the technology they use every day.
 
-## Interactive Elements
+## Interactive Timeline of Events
 
-### 1. Choice-Based Narrative (Simulation Game)
-An interactive, narrative-driven simulation game where the player acts as a **time-traveling programmer on New Year's Eve of 1999**. The main objective is to prevent the Y2K bug from triggering before midnight.
+The exhibit also features an interactive timeline showing the development of the Apollo Guidance Computer alongside major events during the Space Race.
 
-- Three branching paths determine the story direction
-- Incorrect decisions trigger time loss
-- A fail message triggers once the in-site clock reaches midnight
-- Users may experiment with different choices and replay
+Visitors can click on different timeline points to explore historical details, including:
 
-### 2. Interactive Timeline of Events
-A horizontally scrollable timeline showing major events leading up to the Year 2000. Users can click on different points to view historical details, including:
+* The 1961 transition toward integrated circuits
+* Hardware development and testing phases
+* The Apollo 11 landing
+* The famous AGC overload alarms during the lunar descent
 
-- Early adoption of two-digit year formats
-- Growing concerns about Y2K during the 1990s
-- Efforts made to fix the problem before January 1, 2000
-
-The currently selected period expands and becomes the focal point of the screen, with additional information and images displayed beneath it.
+The timeline helps visitors understand how technical challenges emerged and how engineers solved them throughout the project.
 
 ---
 
-## Pages & Layout
+# Exhibit Details
 
-The website is fully responsive using CSS media queries and flexible layouts. Desktop users see the full Windows 95/98-inspired interface; mobile users receive a vertically stacked layout that preserves gameplay and timeline functionality.
+## All About the AGC
 
-### Home Page
-Entry point of the exhibit. Contains the exhibit title, introductory information about the Y2K bug, and navigation links to different sections. Designed to resemble an early internet webpage while remaining clean and easy to navigate.
+Developed by the MIT Instrumentation Laboratory, the Apollo Guidance Computer was one of the first computers built with integrated circuits and used core memory as well as read-only magnetic rope memory. Compared to older computers, which often occupied entire rooms, the AGC was compact enough to fit inside a spacecraft.
 
-### History, Background, and Notable Figures
-Provides an overview of the Y2K bug and the technological limitations that contributed to its creation. Introduces notable individuals and groups who played important roles in raising awareness and coordinating remediation efforts. Images and supporting information are presented throughout.
+NASA wanted astronauts to perform calculations in real time during flight instead of relying entirely on ground-based analog computers, which were not fast or reliable enough for a mission to the Moon.
 
-At the end of this section, visitors can scroll directly into the interactive simulation game.
+The AGC introduced several architectural features that were uncommon at the time. It used erasable core memory for changing mission data and magnetic rope memory for permanently storing software. By separating mission data from mission software, the system became more reliable because critical programs could not be modified during flight.
 
-### Interactive Starting Screen
-A **Windows 98-inspired desktop environment** with multiple error message pop-ups that communicate the urgency and confusion of the Y2K bug. Each pop-up serves as an entry point to a specific task or scenario the visitor must investigate.
+Magnetic rope memory also allowed a large amount of software to be stored in a compact space, which was important due to the spacecraft's strict weight limitations.
 
-### Task-Solving Screen
-Presents visitors with Y2K-related problems and multiple possible solutions. Scenarios are explained in accessible language for non-technical visitors. Users select from available choices and receive feedback on the consequences of each decision.
+The AGC also featured the DSKY (Display and Keyboard), which allowed astronauts to communicate directly with the computer. Through the DSKY, astronauts could monitor spacecraft information and perform navigation tasks in real time.
 
-### Interactive Timeline
-Horizontally scrollable interface presenting key Y2K events across decades. Selected periods expand to become the focal point, with additional information and historical context displayed below.
+Another important architectural feature was the AGC's interrupt-driven design and priority scheduling system. This allowed the computer to handle multiple tasks simultaneously while prioritizing critical navigation and guidance calculations. As a result, the AGC could continue operating even when the system became overloaded.
+
+The AGC did not only solve NASA's problems related to the Moon mission. It also addressed limitations of earlier computers through its use of integrated circuits, making it significantly smaller than previous vacuum tube- and transistor-based systems. The AGC helped accelerate the adoption of integrated circuits throughout the computer industry, paving the way for smaller, more reliable, and more portable electronic devices.
 
 ---
 
-## Design & Visual Identity
+# Design and Layout
 
-The exhibit uses a **Windows 98-inspired** visual identity to reinforce the technological setting of the Y2K era.
+## Home Page
 
-| Element | Choice |
-|---------|--------|
-| Primary Color | Windows 98 Blue |
-| Background | Light Gray |
-| Accent Color | Red (Error Messages) |
-| Heading Font | Tahoma |
-| Body Font | Verdana |
-| Retro/System Font | Courier New |
+![Home Page](images/homepage.png)
+
+The home page serves as the entry point of the exhibit. It contains the exhibit title, introductory information about the Apollo Guidance Computer, and navigation links to different sections of the website. Visitors are provided with a brief overview of the topic and can proceed to explore the historical content or begin the interactive experience.
+
+## History, Background, and Notable Figures
+
+![History and Background](images/history-background.png)
+
+This section provides an overview of the Apollo Guidance Computer and the technological challenges that contributed to its development.
+
+Visitors are also introduced to notable individuals and organizations that played significant roles in the creation of the AGC's hardware and software.
+
+## AGC Innovations Footprint
+
+![Then and Now](images/then-now.png)
+
+This section highlights innovations from the Apollo Guidance Computer that are still present in modern technology.
+
+The layout is divided into two panels:
+
+* Apollo-era innovation
+* Modern-day application
+
+Users can select different innovations to compare their historical origins with their present-day uses.
+
+## Interactive Timeline
+
+![Interactive Timeline](images/timeline.png)
+
+The timeline presents the history of the Apollo Guidance Computer through a horizontally scrollable interface.
+
+As visitors move through the timeline, the selected event expands and becomes the focal point. Additional information, images, and historical context appear below the selected event.
 
 ---
 
-## References
+# Style Guide
 
-- National Geographic. (n.d.). *Y2K bug.* National Geographic Society. https://education.nationalgeographic.org/resource/Y2K-bug/
-- Uenuma, F. (2019, December 30). *20 years later, the Y2K bug seems like a joke — because those behind the scenes took it seriously.* TIME. https://time.com/5752129/y2k-bug-history/
-- *Y2K "Crisis" | Computer Science | Research Starters | EBSCO Research.* (2021). EBSCO. https://www.ebsco.com/research-starters/computer-science/y2k-crisis
+## Color Palette
+
+| Element       | Choice            |
+| ------------- | ----------------- |
+| Primary Color | Off White / Beige |
+| Background    | Deep Navy         |
+| Accent Color  | Gold / Dusty Blue |
+
+## Typography
+
+| Usage             | Font          |
+| ----------------- | ------------- |
+| Heading Font      | Space Grotesk |
+| Body Font         | Inter         |
+| Retro/System Font | IBM Plex Mono |
+
+---
+
+# Design Inspiration
+
+The exhibit adopts a halftone retro aesthetic with deep navy grids and dotted shading inspired by vintage print textures and space-age technical manuals.
+
+Typography is intentionally blocky and system-oriented to evoke the feel of early computing systems and historical aerospace documentation.
+
+### Inspiration Images
+
+![Inspiration 1](images/design_inspo.png)
+
+---
+
+# References
+
+* Computer History Museum. (n.d.). *1968 | Timeline of Computer History*. https://www.computerhistory.org/timeline/1968/
+* Atkinson, N. (2025). *The Story of the Apollo Guidance Computer, Part 2*. Universe Today.
+* Mattioli, M. (2021). *The Apollo Guidance Computer*. IEEE Micro, 41(6), 179–182.
+* Sotomayor, B. (2016). *A Glimpse into the Apollo Guidance Computer*. Medium.
