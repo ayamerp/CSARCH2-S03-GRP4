@@ -79,7 +79,7 @@ The home page serves as the entry point of the exhibit. It contains the exhibit 
 
 ## History, Background, and Notable Figures
 
-![History and Background](images/history-background.png)
+![History and Background](images/historyAndBG.png)
 
 This section provides an overview of the Apollo Guidance Computer and the technological challenges that contributed to its development.
 
@@ -87,7 +87,7 @@ Visitors are also introduced to notable individuals and organizations that playe
 
 ## AGC Innovations Footprint
 
-![Then and Now](images/then-now.png)
+![Then and Now](images/thenAndNow.png)
 
 This section highlights innovations from the Apollo Guidance Computer that are still present in modern technology.
 
@@ -100,7 +100,7 @@ Users can select different innovations to compare their historical origins with 
 
 ## Interactive Timeline
 
-![Interactive Timeline](images/timeline.png)
+![Interactive Timeline](images/interactiveTimeline.png)
 
 The timeline presents the history of the Apollo Guidance Computer through a horizontally scrollable interface.
 
