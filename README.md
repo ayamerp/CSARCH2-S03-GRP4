@@ -3,7 +3,9 @@
 ## Project Information
 
 **Course:** CSARCH2
+
 **Section & Theme:** S03 – Problem-Solving Stories
+
 **Topic:** Apollo Guidance Computer (AGC)
 
 ### Group 4
