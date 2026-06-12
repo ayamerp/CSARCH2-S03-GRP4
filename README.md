@@ -142,7 +142,11 @@ Typography is intentionally blocky and system-oriented to evoke the feel of earl
 
 # References
 
-* Computer History Museum. (n.d.). *1968 | Timeline of Computer History*. https://www.computerhistory.org/timeline/1968/
-* Atkinson, N. (2025). *The Story of the Apollo Guidance Computer, Part 2*. Universe Today.
-* Mattioli, M. (2021). *The Apollo Guidance Computer*. IEEE Micro, 41(6), 179–182.
-* Sotomayor, B. (2016). *A Glimpse into the Apollo Guidance Computer*. Medium.
+* 1968 | Timeline of Computer History | Computer History Museum. (n.d.). https://www.computerhistory.org/timeline/1968/#169ebbe2ad45559efbc6eb357204a28c 
+
+* Atkinson, N. (2025, June 13). The story of the Apollo Guidance Computer, Part 2. Universe Today. https://www.universetoday.com/articles/the-story-of-the-apollo-guidance-computer-part-2 
+
+* Mattioli, M. (2021). The Apollo Guidance computer. IEEE Micro, 41(6), 179–182. https://doi.org/10.1109/mm.2021.3121103 
+
+* Sotomayor, B. (2016, July 9). A Glimpse into the Apollo Guidance Computer. Medium. https://borja.medium.com/a-glimpse-into-the-apollo-guidance-computer-8ee06e5e1a5c 
+
